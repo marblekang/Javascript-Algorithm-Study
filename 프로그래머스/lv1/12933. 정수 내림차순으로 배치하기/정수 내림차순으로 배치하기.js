@@ -1,4 +1,4 @@
 function solution(n) {
-   let answer = parseInt(n.toString().split('').sort().reverse().join(''));
-    return answer
+   let answer = n.toString().split('').sort().reverse().join('');
+    return +answer
 }
